@@ -5,11 +5,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -25,6 +23,11 @@ li a:hover {
 }
 h1 { color: aqua;
     background-color: orange;
-    
-
+}
+.principalpoemas{
+    display: flex;
+}
+#poemas{
+    padding-left: 10px;
+    padding-right: 10px;
 }
