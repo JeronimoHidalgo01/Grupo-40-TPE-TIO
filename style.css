@@ -30,4 +30,15 @@ h1 { color: aqua;
 #poemas{
     padding-left: 10px;
     padding-right: 10px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+}
+
+.div_complet{
+ background-color: bisque;
+}
+.imagencesar{
+    width: 500px;
+    height: 600px;
 }
