@@ -5,11 +5,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -22,4 +20,36 @@ li a:hover {
 }
 .active {
     background-color: #4CAF50;
+}
+h1 { color: aqua;
+    background-color: orange;
+}
+.principalpoemas{
+    display: flex;
+}
+#poemas{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+}
+
+.div_complet{
+ background-color: bisque;
+}
+.imagencesar{
+    width: 500px;
+    height: 600px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+}
+.cesar{
+    padding-right: 2px;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
 }
