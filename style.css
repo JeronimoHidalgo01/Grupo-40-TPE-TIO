@@ -5,11 +5,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
 li {
     float: left;
 }
-
 li a {
     display: block;
     color: white;
@@ -22,4 +20,7 @@ li a:hover {
 }
 .active {
     background-color: #4CAF50;
+}
+h1 { color: aqua;
+    background-color: orange;
 }
