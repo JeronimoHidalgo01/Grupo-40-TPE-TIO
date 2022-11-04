@@ -21,6 +21,18 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
-h1 { color: aqua;
-    background-color: orange;
+#imagenpoesia{
+    border-width: 10px;
+    border-style:double;
+    width: 800px;
+    
+}
+.tituloprincipal{
+    margin-left: 10px;
+}
+.divmaestro{
+    background-color:blanchedalmond;
+}
+#textodepoesia #imagenpoesia{
+    display: inline-block;
 }
