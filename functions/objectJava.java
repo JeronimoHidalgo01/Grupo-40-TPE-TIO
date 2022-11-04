@@ -9,5 +9,12 @@ public class Persona {
 	}
 
 
+	public String getNombre(){
+		return nombre;
+	}
+
+	public String getApeliido(){
+		return apellido;
+	}
 
 }
