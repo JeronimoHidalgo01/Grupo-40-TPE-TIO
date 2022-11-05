@@ -1,9 +1,13 @@
 class Empleado extends Persona{
-    private LocalDate ingreso;
+    private LocalDate ingreso;	
+    private String area;
+    private int codOS;
 
-    public Empleado(String no, String ap){
+    public Empleado(String no, String ap, String ar, int cod){
         super(no, ape);
         this.ingreso = LocalDate.now();
+	this.area = ar;
+	this.codOS = cod;
     }
 
 
@@ -12,6 +16,14 @@ class Empleado extends Persona{
             return Period.between(ingreso, LocalDate.now()).getYears();
         } 
         return 0;
+    }
+
+    public String getArea(){
+    	return area;
+    }
+
+    public int getCodOS(){
+    	return codOS;
     }
 
 
