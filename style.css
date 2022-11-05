@@ -21,6 +21,7 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+<<<<<<< HEAD
 h1 { color: aqua;
     background-color: orange;
 }
@@ -52,4 +53,20 @@ h1 { color: aqua;
     border-style: solid;
     border-color: aqua;
     border-width: 10px;
+=======
+#imagenpoesia{
+    border-width: 10px;
+    border-style:double;
+    width: 800px;
+    
+}
+.tituloprincipal{
+    margin-left: 10px;
+}
+.divmaestro{
+    background-color:blanchedalmond;
+}
+#textodepoesia #imagenpoesia{
+    display: inline-block;
+>>>>>>> 0e3f1c70d76ec8c603a624a21d0e5d7626b80f48
 }
